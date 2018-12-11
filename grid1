@@ -1,0 +1,174 @@
+<div class="modal-dialog" role="document" style="max-width:800px!important; overflow:auto;display:block;">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" aria-label="Close" type="button" data-dismiss="modal">
+  <span aria-hidden="true">×</span>
+</button>
+<h4 class="modal-title" id="myModalLabel">[標題]</h4>
+</div>
+<div class="modal-body" style="overflow:auto;display:block;">
+<input class="KeyID hidden" type="text" value="" \>
+<form name="{$form$}" id="{$form$}" style="max-height:500px!important;">
+<table class="gridContent">
+<tbody>
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">採購品號：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G1 customizedialog" type="text" id="G1" name="G1" />
+</td>
+</tr>
+<tr style="border:3px white solid;">
+<td colspan="4" style="border-right-style:solid;border-right-color:white; text-align: center; background-color:lightskyblue;">
+<h style="font-size:18px; " >
+<b>原幣 </b>
+</h>
+</td>
+</tr>
+<tr style="border:3px white solid;">
+<td style="border-right-style:solid;border-right-color:white; text-align: center; background-color:lightskyblue;">
+<h style="font-size:18px; " >
+<b>數量 </b>
+</h>
+</td>
+<td style="border-right-style:solid;border-right-color:white; text-align: center; background-color:lightskyblue;">
+<h style="font-size:18px; " >
+<b>單位 </b>
+</h>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data"><input class="form-control G2 customizedialog" type="text" id="G2" name="G2" />
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data"><input class="form-control G3 customizedialog" type="text" id="G3" name="G3" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">幣別：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data"><input class="form-control G4 customizedialog" type="text" id="G4" name="G4" />
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">單價：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G5 customizedialog" type="text" id="G5" name="G5" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">數量轉換率：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G6 customizedialog" type="text" id="G6" name="G6" />
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">匯率：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G7 customizedialog" type="text" id="G7" name="G7" />
+</td>
+</tr>
+
+<tr style="border:3px white solid;">
+<td colspan="8" style="border-right-style:solid;border-right-color:white; text-align: center; background-color:lightskyblue;">
+<h style="font-size:18px; " >
+<b>轉換後 </b>
+</h>
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">數量：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G8 customizedialog" type="text" id="G8" name="G8" />
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">單位：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G9 customizedialog" type="text" id="G9" name="G9" />
+</td>
+</tr>
+
+<tr style="border:3px white solid;">
+<td colspan="8" style="border-right-style:solid;border-right-color:white; text-align: center; background-color:lightskyblue;">
+<h style="font-size:18px; " >
+<b>單價(TWD) </b>
+</h>
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">歷史：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G10 customizedialog" type="text" id="G10" name="G10" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">本次：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G11 customizedialog" type="text" id="G11" name="G11" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">採購金額(原幣)：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G12 customizedialog" type="text" id="G12" name="G12" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">採購金額(台幣)：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G13 customizedialog" type="text" id="G13" name="G13" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">申購數量：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G14 customizedialog" type="text" id="G14" name="G14" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">單位：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G15 customizedialog" type="text" id="G15" name="G15" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">差異率：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<input class="form-control G16 customizedialog" type="text" id="G16" name="G16" />
+</td>
+</tr>
+
+<tr>
+<td style="padding-top: 3px; padding-bottom: 3px; white-space: nowrap;" data-th="title">差異說明：
+</td>
+<td style="padding-top: 3px; padding-bottom: 3px;" data-th="data">
+<textarea class="form-control G17" id="G17" name="G17">
+</textarea>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn btn-default modalCancel" type="button" data-dismiss="modal">取消</button>
+<button class="btn btn-info modalSave" type="button" data-dismiss="modal">儲存</button>
+</div>
+</div>
+</div>
